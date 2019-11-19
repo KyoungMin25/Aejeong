@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--버튼 색 바꾸는 건 자바스크립트 영역이므로 아직 구현x-->
+<!--색 글꼴 일괄적으로 바꾸기 / nav랑 section 간격 해결하기 / 평점 필터에 별점사진 넣기 / range 디자인 끝내기 -->
+<html>
+<head><meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="mystyle2.css"></head>
+
+<body>
+
+<header id = "my_heading"> <b>필터링</b> </header> <!--header인지 heading인지 보기-->
+<nav id="my_nav">
+<form method="" action="">
+<input type="button" value = "댕댕이" class = "dogbutton" style="font-family: 'Nanum Pen Script', cursive;font-size:100%">
+<input type="button" value = "애옹이" class = "catbutton"  style="font-family: 'Nanum Pen Script', cursive;font-size:100%">
+<input type="button" value = "기타" class = "lessbutton" style="font-family: 'Nanum Pen Script', cursive;font-size:100%">
+</form>
+</nav>
+<section id="my_section">
+
+
+<article class="article2">
+<form method="" action="">
+<p><br><b>&nbsp&nbsp평점</b></p>
+<label>&nbsp&nbsp&nbsp4점 이상<input type="radio" id="lesspricebox"name="s"></label><br>
+<label>&nbsp&nbsp&nbsp3점 이상<input type="radio" id="highpricebox"name="s"></label><br>
+<label>&nbsp&nbsp&nbsp2점 이상<input type="radio" id="goodsellbox"name="s"></label><br>
+<label>&nbsp&nbsp&nbsp1점 이상<input type="radio" id="highstarbox" name="s" checked="checked"></label><br>
+</form>
+</article>
+
+<article class="article3">
+<form method="" action="">
+<p><br><b>&nbsp&nbsp가격</b></p>
+&nbsp&nbsp&nbsp&nbsp<input type="range" value="0" min="0" max="500000" class="pricerange">
+</form>
+</article>
+
+
+<article class="article4">
+<form method="" action="">
+<p><br><b>&nbsp&nbsp포함 성분</b></p>
+&nbsp&nbsp&nbsp&nbsp<input type="text" class="yestext">
+</form>
+</article>
+
+
+<article class="article5">
+<form method="" action="">
+<p><br>&nbsp&nbsp<b>제외 성분</b></p>
+&nbsp&nbsp&nbsp&nbsp<input type="text" class="notext">
+</form>
+</article>
+
+<article class="article6">
+<form method="" action="">
+<p><br>&nbsp&nbsp<b>브랜드</b></p>
+<label>&nbsp&nbsp&nbspCJ<input type="checkbox" id="cjbox"check="checked"></label><br>
+<label>&nbsp&nbsp&nbsp도그펜시아<input type="checkbox" id="dogbox"check="checked"></label><br>
+<label>&nbsp&nbsp&nbsp휘슬<input type="checkbox" id="whistlebox"check="checked"></label><br>
+<label>&nbsp&nbsp&nbsp에코띠끄<input type="checkbox" id="echobox"check="checked"></label><br>
+</form>
+</article>
+
+
+<div id="my_div">
+<input type="button" class="filterbutton" value="필터 적용">
+</div>
+</section>
+
+</body>
+</html>
