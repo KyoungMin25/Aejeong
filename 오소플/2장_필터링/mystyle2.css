@@ -1,0 +1,40 @@
+#my_heading {float: center; text-align: center; color: #ff0033; background-color: #ffffff; width: 300px;
+font-family: 'Nanum Pen Script', cursive; font-size: 160%;}
+
+#my_nav {margin-bottom: 0px;}
+input.dogbutton {background:#fabcbc;  border: none; width: 100px; height: 30px; cursor: pointer;float:left; border-top-right-radius: 15px;}
+input.catbutton {background:#fabcbc;  border: none; width: 100px; height: 30px; cursor: pointer;float:left; border-top-right-radius: 15px;}
+input.lessbutton {background:#fabcbc;  border: none; width: 100px; height: 30px; cursor: pointer; border-top-right-radius: 15px; float:left;}
+
+#my_section {background-color:#faebc3; width: 300px; margin-top: 50px;}
+
+.article1 {background-color:#ffffff; border-radius:15px; width: 250px; margin-left:20px; height: 160px; margin-top: 20px; }
+.article2 {background-color:#ffffff; border-radius:15px; width: 250px; margin-left:20px; height: 160px;}
+.article3 {background-color:#ffffff; border-radius:15px; width: 250px; margin-left:20px; height: 160px;}
+.article4 {background-color:#ffffff; border-radius:15px; width: 250px; margin-left:20px; height: 100px;}
+.article5 {background-color:#ffffff; border-radius:15px; width: 250px; margin-left:20px; height: 100px;}
+.article6 {background-color:#ffffff; border-radius:15px; width: 250px; margin-left:20px; height: 160px; margin-bottom: 20px;}
+
+input.yestext {border: 1px solid gray; border-radius: 20px; height: 20px; width: 200px;}
+input.notext {border: 1px solid gray; border-radius: 20px; height: 20px; width: 200px;}
+#my_div {text-align:center;}
+input.filterbutton {border:none; background-color:#ef9f5b; cursor: pointer;border-radius: 40px;  font-color:#ffffff;width: 250px; height: 30px; margin-bottom: 15px;}
+
+input.pricerange {
+-webkit-appearance: none;
+outline: none;
+width: 200px; height: 4px; cursor: pointer;
+animate: 0.2s;
+background: #ff8c8c;
+border: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 11px;
+  width: 10px;
+  background: url("tripng.png") no-repeat;
+  cursor: pointer;
+  margin-top: -14px;
+}

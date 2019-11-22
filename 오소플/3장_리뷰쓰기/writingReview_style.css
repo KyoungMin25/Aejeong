@@ -1,0 +1,83 @@
+/*text height는 퍼센트 안됨
+hr 두께도 퍼센트 안됨
+firstDiv 도저히 안되겠음... align 너무 힘듦.
+배너 버튼 다 픽셀. width밖에 퍼넷트 안돼서 걍 다픽셀로.
+윗검색배너 사진버튼 위치 조절 안됨
+*/
+
+#search_banner {
+    display: inline;
+    background-color:#f60024;
+    height: auto;
+   padding-top: 1%;
+   padding-bottom: 1%;
+  position: fixed;
+  width:100%;
+  top: 0;
+  float:left;
+}
+#logo_button {background-color:black; border: none; width: 100px; height: 40px;
+  cursor: pointer; margin-left: 5%; margin-right:15%; padding-top:2%;}
+#search_text {border-color:#f60024; border-radius: 30px; height: 30px; width:40%;}
+#micro_button {background-color:black; border: none; width: 35px; height: 35px;
+  cursor: pointer; margin-right:5%; padding-top:2%;}
+#login_button {background:rgba(255,255,255,0.0); border: none; width: 10%; height: 30px;
+  cursor: pointer; color:white;}
+
+
+
+body{
+  font-family: NanumSquare;
+  font-size: 110%;
+}
+
+#firstDiv{
+  padding-top: 10%;
+  text-align: center;
+  background-color: #ffffff;
+  width: 100%
+}
+
+#profile_img{float:left; width: 130%; height:auto;}
+
+#myHr{width: 70%; color: #f60024;  float:center; border:solid;
+}
+
+#writing_section{  margin-left: 10%;}
+
+.star_button{background: url("picture\star.png") no-repeat; border: none; width: 3%; height: 3%; cursor: pointer;}
+
+.writing_text{border: 1px solid gray; border-radius: 10px; height: 100px; width: 70%;
+  margin-bottom: 5px; margin-left: 5%; margin-bottom: 3%; word-wrap;break-word;
+  line-height: 10px;
+  text-overflow:ellipsis; overflow:hidden;}
+
+#figure_button{width: 13%; height:70px; margin-left:5%; border-radius:10px; background-color:#eeeeee;
+border:none;}
+
+#done_button{background-color: #f60024; no-repeat; border: none; width: 30%; height: 40px;
+   ursor: pointer; margin-right: 10%; border-radius: 20px; margin-left: 10%;}
+#yet_button {background-color: white; no-repeat; border-color: #f60024; width: 30%; height: 40px;
+   ursor: pointer; margin-right: 10%; border-radius: 20px;}
+
+
+
+
+
+   #bottom_banner {
+       display: flex;
+       background-color:#ffffff;
+       height: auto;
+      padding-top: 1%;
+      padding-bottom: 1%;
+     position: fixed;
+     width:100%;
+     bottom: 0;
+   }
+
+   #category_button {background-color:black; border:none; width: 40px; cursor: pointer;
+     margin-right: 40%; float:left;height:40px;}
+   #home_button {background-color:black; border:none; width: 40px; cursor: pointer;
+     margin-right: 40%; float:center;height:40px;}
+   #person_button {background-color:black; border:none; width: 40px; cursor: pointer;
+     /*margin-right: 60px;*/ float:right;height:40px;}

@@ -1,0 +1,19 @@
+
+     #bottom_banner {
+         display: flex;
+         background-color:#ffffff;
+         height: auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+       position: fixed;
+       width:100%;
+       bottom: 0;
+     }
+
+     .cb {background-color:black; border:none; width: 40px; cursor: pointer;
+       /*margin-right: 60px;*/ float:left;height:40px;}
+       .hb {background-color:black; border:none; width: 40px; cursor: pointer;
+         /*margin-right: 60px;*/ float:center;height:40px;}
+     .pb {background-color:black; border:none; width: 40px; cursor: pointer;
+       /*margin-right: 60px;*/ float:right;
+       height:40px;}

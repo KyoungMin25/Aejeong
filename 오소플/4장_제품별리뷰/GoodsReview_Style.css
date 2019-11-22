@@ -1,0 +1,74 @@
+
+#search_banner {
+    display: inline;
+    background-color:#f60024;
+    height: auto;
+   padding-top: 1%;
+   padding-bottom: 1%;
+  position: fixed;
+  width:100%;
+  top: 0;
+  float:left;
+}
+#logo_button {background-color:black; border: none; width: 100px; height: 40px;
+  cursor: pointer; margin-left: 5%; margin-right:15%; padding-top:2%;}
+#search_text {border-color:#f60024; border-radius: 30px; height: 30px; width:40%;}
+#micro_button {background-color:black; border: none; width: 35px; height: 35px;
+  cursor: pointer; margin-right:5%; padding-top:2%;}
+#login_button {background:rgba(255,255,255,0.0); border: none; width: 10%; height: 30px;
+  cursor: pointer; color:white;}
+
+body{
+  font-family: NanumSquare;
+  font-size: 110%;
+}
+
+#main {
+width: 100%;
+margin: 0 auto;
+}
+
+#goodsCenter_article {
+overflow: hidden;
+width: 80%;
+height: auto;
+padding: 5%;
+margin: 5% auto;
+background-color: #f9f7f4;
+text-align: center;
+}
+
+#goodsName_span {
+background-color:#c6c6c6;
+font-size: xx-small;
+}
+
+#moreFigure_article {
+padding-left: 10%;
+}
+
+#review_article {
+padding-left: 15%;
+height: 1000px;
+font-size: small;
+}
+
+
+
+     #bottom_banner {
+         display: flex;
+         background-color:#ffffff;
+         height: auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+       position: fixed;
+       width:100%;
+       bottom: 0;
+     }
+
+     #category_button {background-color:black; border:none; width: 40px; cursor: pointer;
+       margin-right: 40%; float:left;height:40px;}
+     #home_button {background-color:black; border:none; width: 40px; cursor: pointer;
+       margin-right: 40%; float:center;height:40px;}
+     #person_button {background-color:black; border:none; width: 40px; cursor: pointer;
+       /*margin-right: 60px;*/ float:right;height:40px;}
