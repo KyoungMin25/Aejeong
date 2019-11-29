@@ -62,3 +62,10 @@ PRIMARY KEY (Nickname, ItemName, Picture),
 FOREIGN KEY (Nickname) REFERENCES Users(Nickname),
 FOREIGN KEY (ItemName, Picture) REFERENCES Items(ItemName, Picture)
 );
+
+CREATE TABLE match_index
+(ItemName CHAR(50) NOT NULL,
+ComponentsName CHAR(30) NOT NULL,
+FOREIGN KEY (ItemName) REFERENCES Items(ItemName),
+FOREIGN KEY (ComponentsName) REFERENCES Components(ComponentsName)
+);
